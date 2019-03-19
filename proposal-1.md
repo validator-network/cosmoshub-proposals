@@ -25,7 +25,7 @@ Without consideration to the historical performance and good intentions of these
 
 For users, integrators and developers to trust the Hub with their business, it must be understood to be extremely resilient in a wide range of failure modes.
 
-While "extremely resilient" is subject, the above distribution leaves room for improvement when contrasted to comparable networks such as IRISnet Hub.
+While "extremely resilient" is subjective, the above distribution leaves room for improvement when contrasted to comparable networks such as IRISnet Hub.
 
 
 ## Purpose of this proposal
