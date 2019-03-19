@@ -82,6 +82,8 @@ and/or validators who missed less than X blocks the last month.
 
 Your vote on this proposal __only includes the petition__ for the Interchain Foundation to delegate in a manner that flattens voting power distribution.
 
+The intention of the vote is to measure community support for the petition. The vote does not in any way force Interchain Foundation to take any action.
+
 This is not a vote on using an algorithm, nor a vote on the actual implementation such an algorithm if it were to be used.
 
 Please vote accordingly:
