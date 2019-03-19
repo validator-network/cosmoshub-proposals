@@ -32,9 +32,9 @@ While "extremely resilient" is subject, the above distribution leaves room for i
 
 This proposal serves as a petition to the Interchain Foundation to delegate in such a manner, that network robustness is increased by flattening the voting power distribution.
 
-We suggest that a simple algorithm is devised and implemented in software, to assist the Interchain Foundation in the ongoing work of delegating. 
+We _suggest_ that a simple algorithm is devised and implemented in software, to assist the Interchain Foundation in the ongoing work of delegating. 
 
-This software should be released under an open source license to enable peer review and re-use.
+If this algorithm were implemented it software, the Interchain Foundation is encouraged to release it under an open source license to enable peer review and re-use.
 
 
 ## Example algorithm
@@ -69,14 +69,14 @@ and/or validators who missed less than X blocks the last month.
 
 ## Voting
 
-Your vote on this proposal __only includes the petition__ for the Interchain Foundation to devise and use an algorithm to flatten voting power distribution.
+Your vote on this proposal __only includes the petition__ for the Interchain Foundation to delegate in a manner that flattens voting power distribution.
 
-The actual *implementation* of the algorithm is outside the scope of this proposal.
+This is not a vote on using an algorithm, nor a vote on the actual implementation such an algorithm if it were to be used.
 
-Please place your accordingly:
+Please vote accordingly:
 
 | Vote       | Interpretation            |
 | ---------- | ------------------------- |
-| Yes        | I support this petition.  |
+| Yes        | I support this petition in the current form.  |
 | No         | I do not support this petition in current form. |
-| NoWithVeto | I do not support petition the Interchain Foundation. |
+| NoWithVeto | This matter should not be petitioned to the Interchain Foundation. |
