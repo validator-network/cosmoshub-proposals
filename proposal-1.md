@@ -6,7 +6,7 @@ This petition has been submitted on YYYY/MM/DD as proposal 1 on chain-id "cosmos
 
 ## Background
 
-With the successful launch of Cosmos Hub, the community thank the Tendermint team and Interchain Foundation for all its hard work to bring the network live.
+With the successful launch of Cosmos Hub, the community thanks the Tendermint team and Interchain Foundation for all its hard work to bring the network live.
 
 The community is now looking forward for the network to stabilize and the enabling of transfers to drive user adoption.
 
@@ -39,29 +39,41 @@ If this algorithm were implemented it software, the Interchain Foundation is enc
 
 ## Example algorithm
 
-While it is not the intention of this proposal to provide a working and well tested algorithm, one is provided here as way of example.
+While __it is not the intention of this proposal__ to provide a working and well tested algorithm, one is provided below here as way of example.
 
 ```
 Select number of atoms to delegate, maximum of 100k atoms.
-Set target validator = nil.
+Set target validator = nil. # This is the validator that receives the delegation.
+Set best distribution = nil. # This is the best (flattest*) distribution seen so far.
 
-For each candidate validator in the validator set*
+For each candidate validator in the validator set**
 {
-  Simulate delegation to validator
-  If the distribution has flattened (i.e. the number of validators required to reach 33% has increased)
+  Simulate delegation to validator.
+  Calculate the simulated distribution based on above delegation.
+  If the target validator is nil
   {
-    If the target validator is nil
+    Set target validator = candidate validator.
+	Set best distribution = simulated distributed.
+  }
+  Else
+  {
+    If the simulated distributed is better (flatter) than the current best distribution
     {
       Set target validator = candidate validator.
+      Set best distribution = simulated distributed.
     }
-    otherwise, if the commission of the target validator is above the candidate validator
+    Else if the distribution is equal to the current best distribution
     {
-      Set target validator = candidate validator.
+      If the commission of the target validator is greater than the candidate validator
+      {
+        Set target validator = candidate validator.
+      }
     }
   }
 }
 
-* For instance, this could be ALL validators, validators who passed basic security reviews 
+* Flattened, i.e. the number of validators required to reach 33% has increased.
+** For instance, this could be ALL validators, validators who passed basic security reviews 
 and/or validators who missed less than X blocks the last month.
 ```
 
