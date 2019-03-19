@@ -53,7 +53,7 @@ For each candidate validator in the validator set**
   If the target validator is nil
   {
     Set target validator = candidate validator.
-	Set best distribution = simulated distributed.
+    Set best distribution = simulated distributed.
   }
   Else
   {
@@ -76,7 +76,6 @@ For each candidate validator in the validator set**
 ** For instance, this could be ALL validators, validators who passed basic security reviews 
 and/or validators who missed less than X blocks the last month.
 ```
-
 
 
 ## Voting
