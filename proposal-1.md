@@ -1,6 +1,6 @@
 # Petition to the Interchain Foundation
 
-This petition has been submitted on YYYY/MM/DD as proposal 1 on chain-id "cosmoshub-1".
+This petition has been submitted on YYYY/MM/DD as proposal X on chain-id "cosmoshub-1".
 
 ** THIS PROPOSAL IS A DRAFT AND WORK IN PROGRESS. **
 
