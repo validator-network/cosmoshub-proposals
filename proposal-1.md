@@ -2,7 +2,7 @@
 
 This petition has been submitted on YYYY/MM/DD as proposal X on chain-id "cosmoshub-1".
 
-** THIS PROPOSAL IS A DRAFT AND WORK IN PROGRESS. **
+__THIS PROPOSAL IS OBSOLETE AS INTERCHAIN FOUNDATION HAS PUBLISHED https://github.com/interchainio/delegation__
 
 ## Background
 
