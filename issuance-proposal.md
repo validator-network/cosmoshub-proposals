@@ -7,7 +7,7 @@ This proposal has been submitted on YYYY/MM/DD as proposal X on chain-id "cosmos
 ## Executive summary
 This proposal is a first step towards issuance of fungible tokens directly on the Cosmos Hub.
 
-To ensure that the Cosmos Hub remains a pillar of trust, issuance of new tokens will granted on an individual basis through the addition of a new proposal type to the existing governance system.
+To ensure that the Cosmos Hub remains a pillar of trust, issuance of new tokens will be granted on an individual basis through the addition of a new proposal type to the existing governance system.
 
 ## Background
 In its current state, the primary utility of the Cosmos Hub is to demonstrate a working BPoS model and governance mechanisms.
@@ -31,7 +31,7 @@ The advantages of implementing this proposal include:
 The proposal restricts listing of new tokens to those that can pass the governance process. This acts as a quality filter for projects and strengthen the trust in the Cosmos Hub.
 
 ## Details
-We propose that the governance proposal transactions are expanded with a new `ProposalKind`, e.g. `ProposalTypeAddToken`. This would allow new tokens to be introduced through standard governance without the need for network upgrades. The proposal should include an  issuer address from where new tokens can be minted and destroyed.
+We propose that the governance proposal transactions are expanded with a new [`ProposalKind`](https://github.com/cosmos/cosmos-sdk/blob/f635b1cd14daf3c40ac7ae611643a3c1c4bec5e6/x/gov/proposals.go#L119), e.g. `ProposalTypeAddToken`. This would allow new tokens to be introduced through standard governance without the need for network upgrades. The proposal should include an  issuer address from where new tokens can be minted and destroyed.
 
 # Implementation
 The development effort should be undertaken by one of the entities in the following, prioritized order
