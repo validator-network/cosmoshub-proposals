@@ -33,13 +33,13 @@ The proposal restricts listing of new tokens to those that can pass the governan
 ## Details
 We propose that the governance proposal transactions are expanded with a new [`ProposalKind`](https://github.com/cosmos/cosmos-sdk/blob/f635b1cd14daf3c40ac7ae611643a3c1c4bec5e6/x/gov/proposals.go#L119), e.g. `ProposalTypeAddToken`. This would allow new tokens to be introduced through standard governance without the need for network upgrades. The proposal should include an  issuer address from where new tokens can be minted and destroyed.
 
-# Implementation
+## Implementation
 The development effort should be undertaken by one of the entities in the following, prioritized order
 * Tendermint, Inc.
 * 3rd party development team under a grant from the Interchain Foundation
 * 3rd party development team financed by crowdfunding among the network participants
 
-# Motivation
+## Motivation
 e-money.com has an immediate ambition to issue fungible tokens backed by fiat currencies in the Cosmos Network. The longer term goal is to launch a separate zone, but pending the arrival of IBC we expect that significant value can be created for the network by issuing directly on the Cosmos Hub.
 
 Other projects will be able to use these tokens. Obvious use cases include services accepting fiat payments and wallet providers.
