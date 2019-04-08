@@ -53,6 +53,8 @@ Full disclosure: e-money.com is part of the same group of companies as validator
 ## Not in scope
 Besides issuance, the token life cycle is specifically not in scope. The potential removal of an issued token from the Cosmos Hub is left for a future governance proposal, if deemed necessary.
 
+It is left to the discretion of each validator to decide if added tokens will be accepted as fee tokens.
+
 ## Voting options
 | Vote             | Interpretation |
 | ---------------- | -------------- |
