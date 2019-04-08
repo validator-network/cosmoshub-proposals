@@ -1,4 +1,4 @@
-# Proposal for enabling issuance of fungible tokens in the Cosmos Hub
+# Proposal for enabling issuance of fungible tokens on the Cosmos Hub
 
 _*** WORK IN PROGRESS ***_
 
