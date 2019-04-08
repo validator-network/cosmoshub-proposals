@@ -31,7 +31,9 @@ The advantages of implementing this proposal include:
 The proposal restricts listing of new tokens to those that can pass the governance process. This acts as a quality filter for projects and strengthen the trust in the Cosmos Hub.
 
 ## Details
-We propose that the governance proposal transactions are expanded with a new [`ProposalKind`](https://github.com/cosmos/cosmos-sdk/blob/f635b1cd14daf3c40ac7ae611643a3c1c4bec5e6/x/gov/proposals.go#L119), e.g. `ProposalTypeAddToken`. This would allow new tokens to be introduced through standard governance without the need for network upgrades. The proposal should include an  issuer address from where new tokens can be minted and destroyed.
+We propose that the governance proposal transactions are expanded with a new [`ProposalKind`](https://github.com/cosmos/cosmos-sdk/blob/f635b1cd14daf3c40ac7ae611643a3c1c4bec5e6/x/gov/proposals.go#L119), e.g. `ProposalTypeAddToken`. This would allow new tokens to be introduced through standard governance without the need for network upgrades. The proposal should include an issuer address from where new tokens can be minted and destroyed.
+
+Further to this, a natural way to extend the SDK would be as a `x/issuance` module. Tokens issued by this module will be first class citizens and transferable via IBC.
 
 ## Implementation
 The development effort should be undertaken by one of the entities in the following, prioritized order
