@@ -35,12 +35,6 @@ We propose that the governance proposal transactions are expanded with a new [`P
 
 Further to this, a natural way to extend the SDK would be as a `x/issuance` module. Tokens issued by this module will be first class citizens and transferable via IBC.
 
-## Implementation
-The development effort should be undertaken by one of the entities in the following, prioritized order
-* Tendermint, Inc.
-* 3rd party development team under a grant from the Interchain Foundation
-* 3rd party development team financed by crowdfunding among the network participants
-
 ## Motivation
 e-money.com has an immediate ambition to issue fungible tokens backed by fiat currencies in the Cosmos Network. The longer term goal is to launch a separate zone, but pending the arrival of IBC we expect that significant value can be created for the network by issuing directly on the Cosmos Hub.
 
@@ -64,4 +58,8 @@ It is left to the discretion of each validator to decide if added tokens will be
 
 ## Next steps
 Following a successful (Yes) vote, the next steps are:
+* Determine funding source: Tendermint, Interchain Foundation, community fund, crowdfunding, etc. 
+* Determine implementation team: Tendermint or 3rd. party
+
 ...
+
