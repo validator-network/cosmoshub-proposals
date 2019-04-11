@@ -12,7 +12,7 @@ To ensure that the Cosmos Hub remains a pillar of trust, issuance of new tokens 
 ## Background
 In its current state, the primary utility of the Cosmos Hub is to demonstrate a working BPoS model and governance mechanisms.
 
-The utility of the hub is expected to improve when IBC, one of the biggest value propositions of the Cosmos network, is implemented and enabled.
+The utility of the Hub is expected to improve when IBC, one of the biggest value propositions of the Cosmos network, is implemented and enabled.
 
 The work on IBC is on-going at [https://github.com/cosmos/ics](https://github.com/cosmos/ics) and is on track to eventually become a standard for interchain communication.
 
@@ -70,7 +70,7 @@ It is left to the discretion of each validator to decide if added tokens will be
 | ---------------- | -------------- |
 | Yes              | I want the community to move forward with the idea of issuing custom tokens directly on the Cosmos Hub. |
 | No               | I support issuance of custom tokens on the Cosmos Hub, but with a different implementation. |
-| NoWithVeto       | Custom tokens should only originate in other zones and be present in the Cosmos hub through IBC. |
+| NoWithVeto       | Custom tokens should only originate in other zones and be present in the Cosmos Hub through IBC. |
 
 ## Next steps
 Following a successful (Yes) vote, the next steps are:
