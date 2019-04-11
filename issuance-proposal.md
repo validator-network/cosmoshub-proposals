@@ -76,6 +76,3 @@ It is left to the discretion of each validator to decide if added tokens will be
 Following a successful (Yes) vote, the next steps are:
 * Determine funding source: Tendermint, Interchain Foundation, community fund, crowdfunding, etc. 
 * Determine implementation team: Tendermint or 3rd. party
-
-...
-
