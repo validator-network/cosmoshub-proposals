@@ -31,14 +31,20 @@ The advantages of implementing this proposal include:
 The proposal restricts listing of new tokens to those that can pass the governance process. This acts as a quality filter for projects and strengthen the trust in the Cosmos Hub.
 
 ## Details
-We propose that the governance proposal transactions are expanded with a new [`ProposalKind`](https://github.com/cosmos/cosmos-sdk/blob/f635b1cd14daf3c40ac7ae611643a3c1c4bec5e6/x/gov/proposals.go#L119), e.g. `ProposalTypeAddToken`. This would allow new tokens to be introduced through standard governance without the need for network upgrades. The proposal should include an issuer address from where new tokens can be minted and destroyed.
+We propose that the governance proposal transactions are expanded with a new [`ProposalKind`](https://github.com/cosmos/cosmos-sdk/blob/f635b1cd14daf3c40ac7ae611643a3c1c4bec5e6/x/gov/proposals.go#L119), e.g. `ProposalTypeAddToken`. This would allow new tokens to be introduced through standard governance without the need for network upgrades.
 
-Further to this, a natural way to extend the SDK would be as a `x/issuance` module. Tokens issued by this module will be first class citizens and transferable via IBC.
+In addition to this, a natural way to extend the SDK would be as a `x/issuance` module. Tokens issued by this module will be first class citizens and transferable via IBC.
+
+Proposals must include an issuer address (preferably multisig) from where new tokens can be minted and destroyed, along with _a set of tokens_ that will be enabled on acceptance.
+
+The reasons for allowing more than one token in a proposal include:
+1) Projects may require multiple tokens to be listed at the same time and need "transactional acceptance", e.g. Maker requiring both DAI and MKR.
+2) Reduction of governance overhead, as projects can opt to list batches of tokens with similar properties, e.g. [e-money.com](https://e-money.com) listing several fiat backed tokens.
 
 ## Motivation
 [e-money.com](https://e-money.com) has an immediate ambition to issue fungible tokens backed by fiat currencies in the Cosmos Network. The longer term goal is to launch a separate zone, but pending the arrival of IBC we expect that significant value can be created for the network by issuing directly on the Cosmos Hub.
 
-Other projects will be able to use these tokens. Obvious use cases include services accepting fiat payments and wallet providers.
+Other projects will be able to use these tokens. Obvious use cases include services accepting fiat payments, exchanges and wallet providers.
 
 Validators and delegators will also benefit from the additional transaction volume on the network, which will lead to an increase in collected fees.
 
