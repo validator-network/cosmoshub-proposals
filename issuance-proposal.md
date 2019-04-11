@@ -41,6 +41,8 @@ The reasons for allowing more than one token in a proposal include:
 1) Projects may require multiple tokens to be listed at the same time and need "transactional acceptance", e.g. Maker requiring both DAI and MKR.
 2) Reduction of governance overhead, as projects can opt to list batches of tokens with similar properties, e.g. [e-money.com](https://e-money.com) listing several fiat backed tokens.
 
+This proposal explicitly allows _unrestricted_ minting of tokens from the given issuer address.
+
 ## Motivation
 [e-money.com](https://e-money.com) has an immediate ambition to issue fungible tokens backed by fiat currencies in the Cosmos Network. The longer term goal is to launch a separate zone, but pending the arrival of IBC we expect that significant value can be created for the network by issuing directly on the Cosmos Hub.
 
