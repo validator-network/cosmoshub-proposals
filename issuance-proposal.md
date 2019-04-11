@@ -14,7 +14,7 @@ In its current state, the primary utility of the Cosmos Hub is to demonstrate a 
 
 The utility of the hub is expected to improve when IBC, one of the biggest value propositions of the Cosmos network, is implemented and enabled.
 
-The work on IBC is on-going at https://github.com/cosmos/ics and is on track to eventually become a standard for interchain communication.
+The work on IBC is on-going at [https://github.com/cosmos/ics](https://github.com/cosmos/ics) and is on track to eventually become a standard for interchain communication.
 
 Regardless of the current IBC roadmap, fairly modest changes to cosmos-sdk will open up new possibilities for Cosmos Hub attracting value and real transaction volume to the network.
 
@@ -36,13 +36,13 @@ We propose that the governance proposal transactions are expanded with a new [`P
 Further to this, a natural way to extend the SDK would be as a `x/issuance` module. Tokens issued by this module will be first class citizens and transferable via IBC.
 
 ## Motivation
-e-money.com has an immediate ambition to issue fungible tokens backed by fiat currencies in the Cosmos Network. The longer term goal is to launch a separate zone, but pending the arrival of IBC we expect that significant value can be created for the network by issuing directly on the Cosmos Hub.
+[e-money.com](https://e-money.com) has an immediate ambition to issue fungible tokens backed by fiat currencies in the Cosmos Network. The longer term goal is to launch a separate zone, but pending the arrival of IBC we expect that significant value can be created for the network by issuing directly on the Cosmos Hub.
 
 Other projects will be able to use these tokens. Obvious use cases include services accepting fiat payments and wallet providers.
 
 Validators and delegators will also benefit from the additional transaction volume on the network, which will lead to an increase in collected fees.
 
-Full disclosure: e-money.com is part of the same group of companies as validator.network, the author of this proposal.
+Full disclosure: [e-money.com](https://e-money.com) is part of the same group of companies as [validator.network](https://validator.network), the author of this proposal.
 
 ## Not in scope
 Besides issuance, the token life cycle is specifically not in scope. The potential removal of an issued token from the Cosmos Hub is left for a future governance proposal, if deemed necessary.
