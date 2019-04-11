@@ -35,7 +35,7 @@ We propose that the governance proposal transactions are expanded with a new [`P
 
 In addition to this, a natural way to extend the SDK would be as a `x/issuance` module. Tokens issued by this module will be first class citizens and transferable via IBC.
 
-Proposals must include an issuer address (preferably multisig) from where new tokens can be minted and destroyed, along with _a set of tokens_ that will be enabled on acceptance.
+Proposals must include an issuer address (preferably multisig) from which new tokens can be minted and destroyed, along with _a set of tokens_ that will be enabled on acceptance.
 
 The reasons for allowing more than one token in a proposal include:
 1) Projects may require multiple tokens to be listed at the same time and need "transactional acceptance", e.g. Maker requiring both DAI and MKR.
