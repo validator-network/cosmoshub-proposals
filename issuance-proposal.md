@@ -51,8 +51,16 @@ Validators and delegators will also benefit from the additional transaction volu
 Full disclosure: [e-money.com](https://e-money.com) is part of the same group of companies as [validator.network](https://validator.network), the author of this proposal.
 
 ## Not in scope
+#### Token life cycle
 Besides issuance, the token life cycle is specifically not in scope. The potential removal of an issued token from the Cosmos Hub is left for a future governance proposal, if deemed necessary.
 
+#### Token identifiers
+Tokens identifiers are assigned on a first come, first served basis. We expect the governance process to reject attempts at cybersquatting, trademark infringements and plagiarism.
+
+#### Fixed supply
+Fixed supply issuance can be considered a subset of the proposed model, so that an issuance ceremony can be trivially designed to handle this case.
+
+#### Use as fee tokens
 It is left to the discretion of each validator to decide if added tokens will be accepted as fee tokens.
 
 ## Voting options
