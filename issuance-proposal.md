@@ -1,8 +1,6 @@
 # Proposal for enabling issuance of fungible tokens on the Cosmos Hub
 
-_*** WORK IN PROGRESS ***_
-
-This proposal has been submitted on YYYY/MM/DD as proposal X on chain-id "cosmoshub-1".
+This proposal has been submitted on 2019/04/15 as proposal 4 on chain-id "cosmoshub-1".
 
 ## Executive summary
 This proposal is a first step towards issuance of fungible tokens directly on the Cosmos Hub.
